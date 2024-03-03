@@ -51,3 +51,14 @@ p line{
 font-style: italic;
 }
 
+.line{
+  display: inline-block;
+  text-align: left;
+  width: 75%;
+}
+.date{
+  display: inline-block;
+  text-align:right;
+  width:25%;
+}
+
