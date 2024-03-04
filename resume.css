@@ -75,7 +75,7 @@ p {
   list-style-type: square;
   margin: 15px;
 }
-.actions li{
+li{
   margin: 15px;
   padding: auto;
 }
@@ -104,4 +104,5 @@ p {
    background: aliceblue;
      color:black;
    font-style: italic;}
-   
+
+
