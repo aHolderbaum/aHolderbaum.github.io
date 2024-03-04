@@ -79,3 +79,29 @@ p {
   margin: 15px;
   padding: auto;
 }
+#contact {
+  overflow: hidden;
+  background-color: #354c69;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+ }
+ 
+ #contact a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-left: 15px;
+   font-family: "Raleway", sans-serif;
+ 
+ }
+ 
+ #contact a:hover {
+   background: aliceblue;
+     color:black;
+   font-style: italic;}
+   
