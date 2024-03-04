@@ -79,10 +79,6 @@ font-style: italic;
 
 img{
  padding:25px;
- margin:15 px;
+ margin:25 px;
 }
 
-img:hover {
- border: 3px double aliceblue;
- padding:7px;
-}
