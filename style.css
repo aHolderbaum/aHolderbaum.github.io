@@ -76,3 +76,8 @@ font-style: italic;
     color:black;
   font-style: italic;
 }
+@media screen and (max-width: 600px) {
+#mycanvas{
+  display: none;
+}
+}
