@@ -1,0 +1,156 @@
+body {
+  /*
+  Background image from https://pixabay.com/illustrations/web-network-light-points-of-light-5205244/ */
+  background-image: url('backgroundImage.jpg');
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+}
+.mobileIntro{
+  display: none;
+
+}
+.main a{
+display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  background-color: #354c69;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Raleway", sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.main a:hover{
+    background-color: #7696a5;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.main{
+  width: 80%;
+  background-color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+h1{
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+  font-size: 50px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+  
+}
+h2{
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+  font-size: 30px ;
+}
+#navbar {
+ overflow: hidden;
+ background:#354c69;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+
+#navbar a {
+ float: left;
+ display: block;
+ color: #fff;
+ text-align: center;
+ padding: 15px;
+  font-family: "Raleway", sans-serif;
+
+}
+
+#navbar a:hover {
+ background: aliceblue;
+  color:black;
+font-style: italic;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+#mycanvas{
+  max-width: 50%;
+  align-self:center;
+
+ 
+}
+body{
+  /*Background image from: https://pixabay.com/illustrations/abstract-art-lines-pattern-texture-7093399/ */
+  background-image: url('mobileBackground.jpg');
+}
+.main{
+  width: 80%;
+  background-color: #fad6c0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top:20%;
+}
+.main a{
+    background-color: #7696a5;
+}
+.mobileIntro{
+  display: block;
+
+}
+
+h1{
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+  font-size: 30px;
+}
+h2{
+  text-align: center;
+  font-family: "Kode Mono", monospace;
+  font-size: 15px ;
+}
+#navbar {
+ overflow: hidden;
+ background:#7696a5;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+
+#navbar a {
+ float: left;
+ display: block;
+ color: #fad6c0;
+ text-align: center;
+ padding: 15px;
+  font-family: "Raleway", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+}
+
+/*
+#7696a5 blue
+#fad6c0 pink
+
+*/
